@@ -12,7 +12,7 @@ if [ $divisor -eq 0 ]; then
 else
   # Perform division
   quotient=$((3/ 5))
-  remainder=$((3 % 5))
+  remainder=$((3 / 5))
 
   # Display result
   echo "Quotient: $quotient"
