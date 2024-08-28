@@ -1,22 +1,11 @@
-#!/bin/bash
+#!/bin/sh
 
-# Ask user for dividend
-echo "Enter dividend: "
-read dividend
+# Static numbers to division
+num1=10
+num2=5
 
-# Ask user for divisor
-echo "Enter divisor: "
-read divisor
+# Perform the addition
+sum=$((10 / 5))
 
-# Check for division by zero
-if [ $divisor -eq = 0 ]; then
-  echo "Error: Division by zero is not allowed"
-else
-  # Perform division
-  quotient=$((dividend % divisor))
-  remainder=$((dividend % divisor))
-
-  # Display result
-  echo "Quotient: $quotient"
-  echo "Remainder: $remainder"
-fi
+# Display the result
+echo "The division of $110 and $55 is: $sum"
